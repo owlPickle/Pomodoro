@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/fontello.css">
+
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/action.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row big">
+      <div class="main col-8">
+        <div class="wrap">
+
+          <div class="mission">
+            <input type="text" id="add-todo-input" placeholder="ADD A NEW MISSION">
+            <a href="#" id="add-mission">+</a>
+          </div>
+
+          <div class="main-todo">
+            <div class="circle"></div>
+            <div id="main-todo">
+              <p id="main-title"></p>
+              <div class="circle small"></div>
+            </div>
+          </div>
+          <div id="time">25:00</div>
+
+          <div id="todo-list">
+            <ul id="todo-wrap">
+              <!-- <li>
+                <div class="circle middle"></div>
+                <div class="todo">the second thing to do today</div>
+                <div class="icon-play-circled2"></div>
+              </li> -->
+              <!-- <li>
+                <div class="circle middle"></div>
+                <div class="todo">the third thing to do today</div>
+                <div class="icon-play-circled2"></div>
+              </li>
+              <li>
+                <div class="circle middle"></div>
+                <div class="todo">the forth thing to do today</div>
+                <div class="icon-play-circled2"></div>
+              </li> -->
+            </ul>
+            <a href="#" class="more">MORE</a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="start">
+        <div class="main-circle">
+          <div id="statr-btn"><i id="startbtn" class="icon-play-circled open"></i></div>
+          <div><i id="pausebtn" class="icon-pause-circled"></i></div>
+          <div id="reset-btn"></div>
+        </div>
+      </div>
+
+      <div class="sub col-4">
+        <nav>
+          <li><i class="icon-list-bullet"></i></li>
+          <li><i class="icon-chart-bar-outline"></i></li>
+          <li><i class="icon-music"></i></li>
+        </nav>
+
+        <div class="logo">POMODORO</div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
